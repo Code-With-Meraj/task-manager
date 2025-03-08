@@ -1,0 +1,80 @@
+/* UserManagement.css */
+
+.container {
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+  }
+  
+  input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    background: blue;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+  }
+  
+  button:hover {
+    background: darkblue;
+  }
+  
+  .user-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .user-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+  }
+  
+  .user-item button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .user-item button:first-child {
+    background: orange;
+  }
+  
+  .user-item button:first-child:hover {
+    background: darkorange;
+  }
+  
+  .user-item button:last-child {
+    background: red;
+  }
+  
+  .user-item button:last-child:hover {
+    background: darkred;
+  }
+  
